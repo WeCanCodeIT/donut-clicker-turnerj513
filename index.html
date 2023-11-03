@@ -17,11 +17,21 @@
         </nav>
     </header>
     <body>
-        <div id="donutContainer">
-            <p>Donuts: <span id="donutCount">0</span></p>
-            <img id="donutImage" src="donut pic.jpg" width="300" height="300"alt="Donut">
-        </div>
-        <p>Click the donut to get more!</p>
+        <section class="donut-section">
+            <h2>Donut Maker</h2>
+            <div class="donut-container">
+                <img id="donut-click" src="donut pic.jpg"width="300" height="300" alt="Donut">
+            </div>
+            <p class="donut-count">Donuts: <span id="donut-count">0</span></p>
+        </section>
+    
+        <section class="auto-clicker-section">
+            <h2>Auto Clickers</h2>
+            <p class="auto-clicker-count">Auto Clickers Purchased: <span id="auto-clicker-count">0</span></p>
+            <button id="buy-auto-clicker" disabled>Buy Auto Clicker</button>
+        </section>
+    
+        <button id="reset-game">Reset Game</button>
     
     <script src="app.js"></script>
 </body>
