@@ -11,12 +11,3 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
-#donutContainer {
-    margin: 20px;
-}
-#donutCount {
-    font-size: 36px;
-}
-#donutImage {
-    cursor: pointer;
-}
